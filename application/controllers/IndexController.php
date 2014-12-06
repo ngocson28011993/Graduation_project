@@ -2,15 +2,11 @@
 /**
  * Created by PhpStorm.
  * User: SonChuoi
- * Date: 11/26/2014
- * Time: 11:52 AM
+ * Date: 12/6/2014
+ * Time: 10:28 AM
  */
-?>
-
-<?php
     class IndexController extends Zend_Controller_Action{
-        public function indexAction(){
-
+         public function indexAction(){
         }
     }
 ?>
