@@ -11,7 +11,7 @@
               'title' => 'Zend Framework',
               'author'=> 'Kenny',
               'date'  => '20-11-2009',
-              'website'=> 'www.QHOnline.Info'
+              'website'=> 'NodeCart_NetBase'
             );
          $this->view->info = $data;
         }
@@ -22,11 +22,10 @@
             $baseurl=$this->_request->getbaseurl();
             $this->view->doctype();
             $this->view->headtitle("cuchuoi - Chapter 3: Zend Framework");
-            $this->view->headMeta()->appendName("keyword","Zend Framework,Codeigniter,PHP Framework");
+            $this->view->headMeta()->appendName("keyword","Zend Framework,PHP Framework, NodeJs Total.js");
             $this->view->headMeta()->offsetSetName("1","description","test Zend");
             $this->view->headLink()->appendStylesheet($baseurl."/public/css/style.css");
             $this->view->headscript()->appendFile($baseurl."/public/js/js.js","text/javascript");
-//            $this->view->headscript()->offsetSetFile("1",$baseurl."/public/js/test2.js","text/javascrip");
         }
     }
 ?>
