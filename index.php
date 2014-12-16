@@ -6,7 +6,7 @@
  * Time: 9:43 AM
  */
 define('APPLICATION_PATH',
-realpath(dirname(__FILE__) . '/application'));
+    realpath(dirname(__FILE__) . '/application'));
 define('APPLICATION_ENV','production');
 set_include_path(APPLICATION_PATH . '/../library');
 require_once 'Zend/Application.php' ;

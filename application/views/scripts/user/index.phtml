@@ -11,9 +11,9 @@
         echo "<td align='center'>".$item['id']."</td>";
         echo "<td align='center'>".$item['username']."</td>";
         if($item['level'] == 1){
-            echo "<td align='center'><font color='red'>Admin</font></td>";
+            echo "<td align='center'>Member</td>";
         }else{
-            echo "<td align='center'><font color='red'>men=mber</font></td>";
+            echo "<td align='center'><font color='red'>Admin</font></td>";
         }
         echo "</tr>";
     }
@@ -21,9 +21,4 @@
 </table>
 <?php
 echo $this->paginationControl($this->data, 'Sliding' , 'user/pagination.phtml');
-?>
-<?php
-    echo "<pre>";
-    print_r($this->data);
-    echo "</pre>";
 ?>
