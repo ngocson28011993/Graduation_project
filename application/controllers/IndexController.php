@@ -14,8 +14,10 @@
              $this->view->headMeta()->offsetSetName("1","description","test Zend");
              $this->view->headLink()->appendStylesheet($baseurl."/public/css/product.less");
              $this->view->headLink()->appendStylesheet($baseurl."/public/css/style.css");
+             $this->view->headLink()->appendStylesheet($baseurl."/public/pugginscss/style.css");
 
              $this->view->headscript()->appendFile($baseurl."/public/js/main.js","text/javascript");
+             $this->view->headscript()->appendFile("1", $baseurl."/public/plugins/bootstrap-3.2.0-dist/js/bootstrap.min.js","text/javascript");
         }
     }
 ?>
