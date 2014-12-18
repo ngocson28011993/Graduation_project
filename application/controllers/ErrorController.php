@@ -5,4 +5,8 @@
  * Date: 12/8/2014
  * Time: 11:12 AM
  */
-?>
+class ErrorController extends Zend_Controller_Action{
+    public function ErrorAction(){
+
+    }
+}
