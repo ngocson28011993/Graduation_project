@@ -1,0 +1,28 @@
+
+
+#footer {
+
+}
+#footer >.top{
+    background: #e74c3c;
+    padding: 29px 0px 31px 0px;
+}
+#footer >.top >.container >.col-md-6 >h5{
+    font-family: Segoeui;
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 10px;
+}
+#footer >.top >.container >.col-md-6 >a{
+
+}
+#footer >.top >.container >.col-md-6 >a>i {
+    color: #666666;
+    font-size: 28px;
+    padding: 8px 13px;
+    background: #ffffff;
+}
+#footer >.top >.container >.col-md-6 >a>i:hover {
+    background: #2363c3;
+    color: #ffffff;
+}
