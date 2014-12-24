@@ -1,20 +1,29 @@
 <div id="header">
-    <div class="container">
-        <div class="menu-top">
-            <ul class="form-group pull-left">
-                <li>Support online:<a href="">(+84)978 135 793</a></li>
-                <li class="language"><?php $this->Language(); ?></li>
-                <li class="currency"><?php $this->Currency(); ?></li>
-            </ul>
-            <ul class="form-group pull-right">
-                <li>Default wellcome msg!</li>
-                <li>
-                    <i class="glyphicon glyphicon-user">Accout</i>
+    <div class="container menu-top">
+        <div class="form-group">
+            <div class="phone">Support online:<a href="#">(+84)978 135 xxx</a></div>
+            <div class="language">
+                <img src="./public/img/header/language/england.png">
+                <?php $this->Language(); ?>
+                <i class="fa fa-angle-down"></i>
+            </div>
+            <div class="currency">
+                <?php $this->Currency(); ?>
+                <i class="fa fa-angle-down"></i>
+            </div>
+            <div class="pull-right form-group account">
+                <p><a href="#">Default wellcome msg!</a></p>
+                <div class="user">
+                    <i class="glyphicon glyphicon-user"></i>
+                    Accout
                     <i class="fa fa-angle-down"></i>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
-        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="logo-top">
+    <div class="container">
         <div class="logo">
             <img class="img-responsive" src="" alt="logo">
         </div>
@@ -23,29 +32,29 @@
             <div class="fa fa-shopping-cart cart"></div>
         </div>
     </div>
-    <div class="menu">
-        <div class="container">
-            <div class="navbar-header">
-                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-                <ul class="nav navbar-nav">
-                    <li><a href="/admin">Home</a></li>
-                    <li><a href="./user">Travel</a></li>
-                    <li><a href="">Clothes</a></li>
-                    <li><a href="./blog/detail">Watch</a></li>
-                    <li><a href="<?php echo $baseurl.('admin');?>">Shoes</a></li>
-                    <li><a href="<?php echo $this->url.('admin');?>">Cell Phones</a></li>
-                    <li><a href="">Camera</a></li>
-                    <li><a href="">Computer</a></li>
-                    <li><a href="">Blog</a></li>
-                </ul>
-            </nav>
+</div>
+<div class="menu">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li><a href="/admin">Home</a></li>
+                <li><a href="./user">Travel</a></li>
+                <li><a href="">Clothes</a></li>
+                <li><a href="./blog/detail">Watch</a></li>
+                <li><a href="<?php echo $baseurl.('admin');?>">Shoes</a></li>
+                <li><a href="<?php echo $this->url.('admin');?>">Cell Phones</a></li>
+                <li><a href="">Camera</a></li>
+                <li><a href="">Computer</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </nav>
     </div>
 </div>

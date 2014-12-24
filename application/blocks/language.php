@@ -7,6 +7,6 @@
  */
 class Block_Language extends Zend_View_Helper_Abstract{
     public function Language(){
-        echo "language";
+        echo "English";
     }
 }

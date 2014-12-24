@@ -7,6 +7,6 @@
  */
 class Block_Currency extends Zend_View_Helper_Abstract{
     public function Currency(){
-        echo "Currency";
+        echo "$ USD";
     }
 }

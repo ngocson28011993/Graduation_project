@@ -18,9 +18,8 @@
              $this->view->headLink()->appendStylesheet($baseurl."/public/less/style_layout.less");
              $this->view->headLink()->appendStylesheet($baseurl."/public/less/elements/footer.less");
 
-             $this->view->headscript()->appendFile($baseurl."/public/js/elements/footer.js","text/javascript");
-             $this->view->headscript()->offsetSetFile("1", $baseurl."/public/plugins/jquery-1.11.1.min.js","text/javascript");
-             $this->view->headscript()->offsetSetFile("2", $baseurl."/public/plugins/bootstrap-3.2.0-dist/js/bootstrap.min.js","text/javascript");
+             $this->view->headscript()->appendFile($baseurl."/public/plugins/jquery-1.11.1.min.js","text/javascript");
+             $this->view->headscript()->offsetSetFile("1", $baseurl."/public/plugins/bootstrap-3.2.0-dist/js/bootstrap.min.js","text/javascript");
         }
     }
 ?>
