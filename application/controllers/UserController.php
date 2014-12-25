@@ -15,5 +15,8 @@ class UserController extends Zend_Controller_Action{
         $currentPage = $this->_request->getParam('page',1);
         $paginator->setCurrentPageNumber($currentPage);
         $this->view->data=$paginator;
+
+        $form=new Form_User;
+        $this->view->form=$form;
     }
 }
