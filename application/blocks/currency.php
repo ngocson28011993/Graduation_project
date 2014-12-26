@@ -10,3 +10,9 @@ class Block_Currency extends Zend_View_Helper_Abstract{
         echo "$ USD";
     }
 }
+?>
+<!--<select>-->
+<!--    <option>EURO</option>-->
+<!--    <option>VND</option>-->
+<!--    <option>YEN</option>-->
+<!--</select>-->
